@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
 		// initialize them in REVERSE order! last nodes first. this prevents the nodes from being null
 		// when referenced inside other nodes.
 		node8 = new Node ("In your very rude hurry, you slip and fall into a deep hole, filled with nameless beasts who harvest souls.", "Fight them!", "Climb back out!", node4, node4);
-		node7 = new Node("Oops. You fall in and drown.", "Try to swim?", node4, node4);
+		node7 = new Node("Oops. You fall in and drown.", "Ugh.", "Try to swim?", node4, node4);
 		node6 = new Node ("Sploosh, sploosh, sploosh. Everything is wet and terrible. But it could have been worse. You could have died or something.", "Do it again", "Maybe tomorrow it won't rain...", node1, node1);
 		node2 = new Node("Oh no, a witch!", "Fight her!", "Give her your hair", null, null);
 		node1 = new Node("You're walking through the woods", "LOOK FOR DANGER", "Chill out", node2, node2);
