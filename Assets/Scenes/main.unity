@@ -236,6 +236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainText: {fileID: 1750817904}
   leftButtonText: {fileID: 1624287000}
+  rightButtonText: {fileID: 1517003953}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,8 +468,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: c871a4ad94d0f8f47a4d6fa98ebef7fc, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 479441526}
+        m_MethodName: ClickRight
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -837,8 +838,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: c871a4ad94d0f8f47a4d6fa98ebef7fc, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 479441526}
+        m_MethodName: ClickLeft
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
